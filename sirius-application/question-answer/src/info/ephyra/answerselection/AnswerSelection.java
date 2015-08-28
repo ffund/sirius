@@ -60,11 +60,11 @@ public class AnswerSelection {
 			if(currentfilter==10)
 				for(int i=0;i<results.length;i++){
 					if(results[i].getSentence()!=null&&maxdisplay<10 && results[i].getAnswer()!=null){
-						System.out.println("\nAnswer: " + resuls[i].getAnswer());
+						System.out.println("\nAnswer: " + results[i].getAnswer());
 						System.out.println("Snippet: " + results[i].getSentence() + "\nScore: " + results[i].getScore());
 						maxdisplay++;
 					}
-					maxdisplay=0;
+					//maxdisplay=0;
 				}                        
 
 
